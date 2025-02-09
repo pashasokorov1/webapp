@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавить машину</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Добавить машину</h1>
+        <input type="text" id="carNumber" placeholder="Номер машины (например, А123ВМ)">
+        <input type="number" id="city" placeholder="Город (л/100 км)">
+        <input type="number" id="highway" placeholder="Трасса (л/100 км)">
+        <input type="number" id="district" placeholder="Район (л/100 км)">
+        <input type="number" id="idle" placeholder="Простой (л/ч)">
+        <button onclick="addCar()">Добавить машину</button>
+        <button onclick="window.location.href='index.html'">Назад</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
